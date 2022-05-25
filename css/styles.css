@@ -1,0 +1,101 @@
+body{
+	color: var(--text-bolt);
+	background-color: var(--background);
+	font-family: "roboto",sans-serif;
+}
+
+:root {
+	--navigation: #2196F3;
+	--text-regular:#757575;
+	--acent:#2F303A;
+	--background:#ffffff;
+	--text-bolt:#212121;
+}
+/* logo */
+.logo-web{
+	font-family: "raleway";
+	font-weight: 700;
+  font-size : 26px;
+	line-height: 30.52px;
+	color: var(--navigation);
+	text-decoration: none;
+}
+.logo-footer{
+	color:var(--background);
+}
+.logo-header{
+	color:var(--text-bolt);
+}
+
+/* Header */
+/* .header{
+
+} */
+.top-menu__link{
+	font-weight: 500;
+	Font-size: 14px;
+	line-height: 16.41px;
+	color:var(--text-bolt);
+	text-decoration: none;
+}
+.top-menu__link:hover{
+	color: var(--navigation);
+}
+.top-menu__link:focus{
+	color: var(--navigation);
+}
+
+/* contacts */
+.contacts{
+  Font-family: "Roboto";
+  font-weight: 500;
+  Font-size: 14px;
+  Line-height: 16px;
+	color:var(--text-regular);
+	text-decoration: none;
+}
+.contacts:hover{
+	color:var(--navigation);
+}
+.contacts:focus{
+	color:var(--navigation)
+}
+.adress{
+	color:var(--background);
+}
+.adress:hover{
+	color:var(--navigation);
+}
+.adress:focus{
+	color:var(--navigation)
+}
+
+/* Герой */
+.hero{
+	width: 1600px;
+	height: 600px;
+	background-color: var(--acent);
+}
+.hero-text{
+font-weight:900;
+line-height: 60px;
+color: var(--background);
+}
+.hero-button{
+	color: var(--background);
+	background-color: var(--navigation);
+	cursor: pointer;
+}
+.hero-button:hover{
+	color: var(--navigation)
+}
+.hero-button:focus{
+	color: var(--navigation)
+}
+/* Footer */
+.footer{
+	background-color:var(--acent);
+	width: 1600px;
+	height: 252px;
+	top: 1628px;
+}
