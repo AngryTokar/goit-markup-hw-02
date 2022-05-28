@@ -10,10 +10,8 @@
 body{
 	background-color: var(--background);
 	color: var(--text-primary-color);
-	font-family: roboto,sans-serif;
-	font-style: normal;
+	font-family: Roboto,sans-serif;
 	font-size: 14px;
-	font-weight: 500;
 }
 
 /* Лого */
@@ -55,6 +53,7 @@ body{
 .top-menu{
   line-height: 1.14em;
   letter-spacing: 0.02em;
+	font-weight: 500;
 	color: var(--text-primary-color);
 }
 .top-menu:hover,
@@ -65,7 +64,7 @@ body{
 /* Контакты */
 
 .contacts{
-	font-style: normal;
+	font-weight: 500;
   line-height: 1.14em;
   letter-spacing: 0.02em;
 	color: var(--text-regular);
@@ -79,23 +78,15 @@ body{
 /* Адрес */
 
 .adress{
-	font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
 	color: var(--background);
 }
-.adress:hover,
-.adress:focus{
-	color:var(--navigation);
-}
 
 /* Герой */
 
 .hero{
-  width: 1600px;
-  height: 600px;
   background-color: var(--acent);
 }
 
@@ -110,12 +101,10 @@ body{
 }
 
 .hero-button{
+	font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 	color: var(--background);
 	cursor: pointer;
@@ -141,7 +130,6 @@ list-style: none;
   text-transform: uppercase;
 }
 .benefits-text{
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -162,7 +150,6 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .work-name{
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -173,17 +160,14 @@ letter-spacing: 0.03em;
 /* Footer */
 
 .footer{
-	width: 1600px;
-	height: 252px;
-	top: 1628px;
 	background-color:var(--acent);
 }
 /* Галерея */
 .galery-button{
+	font-family:inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62em;
-  text-align: center;
   letter-spacing: 0.03em;
 	cursor: pointer;
 	background-color: #F5F4FA;
@@ -198,13 +182,12 @@ letter-spacing: 0.03em;
 .projeckt-name{
   font-weight: 700;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 }
 .projeckt-description{
-  font-weight: 400;
   font-size: 16px;
-  line-height: 2em;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color:var(--text-regular);
 }
